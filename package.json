@@ -1,0 +1,19 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool to organize files",
+  "type": "module",
+  "main": "index.js",
+  "repository": "git@github.com:Yatsa-dev/file-organizer.git",
+  "author": "Yatsa-dev <ihor.yatsyshynn@gmail.com>",
+  "scripts": {
+    "scan": "node file-organizer.js scan",
+    "duplicates": "node file-organizer.js duplicates",
+    "organize": "node file-organizer.js organize",
+    "cleanup": "node file-organizer.js cleanup"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
